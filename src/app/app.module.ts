@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 
 
 //May not need this file it may all be in app.component.ts now?
@@ -10,7 +11,8 @@ import { BrowserModule } from '@angular/platform-browser';
   declarations: [],
   imports: [
     CommonModule,
-    BrowserModule
+    BrowserModule,
+    RouterModule
   ],
   bootstrap: []
 })
